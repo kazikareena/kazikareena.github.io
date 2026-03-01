@@ -3,9 +3,6 @@
 \*-----------------------------------*/
 
 
-/**
- * copyright 2022 @codewithsadee
- */
 
 
 
@@ -837,9 +834,17 @@ main {
 .skills-title { margin-bottom: 20px; }
 
 .skills-list { padding: 20px; }
-
-
-.skills-item:not(:last-child) { margin-bottom: 15px; }
+ 
+ /* download link styling */
+ .download-resume { margin: 18px 0; }
+ .download-link {
+   display: inline-block;
+   padding: 10px 16px;
+   background: var(--orange-yellow-crayola);
+   color: var(--smoky-black);
+   border-radius: 8px;
+   font-weight: var(--fw-500);
+ }
 
 .skill .title-wrapper {
   display: flex;
